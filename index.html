@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love for My Wife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To My Dearest Wife</h1>
+        <h1 class="fall-text">Megla</h1>
+        <p class="message">You are the love of my life, and I cherish every moment we spend together. I love you more every day!</p>
+        <button class="btn">Click to Feel the Love</button>
+    </div>
+
+    <div class="hearts">
+        <!-- Hearts for animation -->
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <script>
+        const button = document.querySelector('.btn');
+        const message = document.querySelector('.message');
+        button.addEventListener('click', () => {
+            message.textContent = "Forever and always, you're my everything!";
+            message.style.color = "red";
+        });
+    </script>
+</body>
+</html>
